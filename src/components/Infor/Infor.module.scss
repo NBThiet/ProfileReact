@@ -1,0 +1,40 @@
+.Inf1 {
+    height: 200px;
+    width: 40%;
+    background-color: rgb(21, 23, 40);
+    border-radius: 10px;
+}
+.Intro {
+    color: rgb(92, 94, 110);
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.Inf1 li {
+    list-style-type: none;
+    color: rgb(177, 179, 195);
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.Inf1 li .IF {
+    color: rgb(22, 87, 164);
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 741px) {
+    .Inf1 {
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .Inf {
+        flex-direction: column;
+    }
+    .Inf1,
+    .Inf2 {
+        height: 230px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+}

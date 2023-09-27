@@ -1,0 +1,75 @@
+.fa-bars {
+    display: none;
+}
+
+.titleMenu {
+    margin-left: 10px;
+    color: rgb(71, 73, 90);
+}
+
+.child_menu {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(131, 131, 147);
+    margin-left: -30px;
+}
+.child_menu:hover {
+    color: aliceblue;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 20px;
+    z-index: 3;
+    margin-top: 10px;
+    padding-right: -20px;
+}
+.MenuMB {
+    display: none;
+    z-index: 5;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    height: 600px;
+    width: 200px;
+    // background-color: rgba(53, 48, 48, 0.5);
+    margin-left: 5%;
+    margin-top: -5px;
+}
+.MenuMB .boxMenu {
+    z-index: 1;
+    overflow: scroll;
+    height: 650px;
+    background-color: rgb(21, 23, 40);
+    padding-top: -50px;
+    width: 200px;
+}
+.MenuMB .menu {
+    margin-top: 1px;
+}
+
+.MenuMB .boxMenu::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(21, 23, 40);
+}
+
+.MenuMB .boxMenu::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(21, 23, 40);
+}
+
+.MenuMB .boxMenu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #2e2e30;
+}
+
+@media only screen and (max-width: 740px) {
+    .MenuMB {
+        display: block;
+    }
+}

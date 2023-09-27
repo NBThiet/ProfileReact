@@ -1,0 +1,54 @@
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.project_child_1 {
+    width: 32%;
+    height: 280px;
+    background-color: rgb(21, 23, 40);
+    border-radius: 10px;
+}
+
+.project_child_1 img {
+    height: 170px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.InfPro {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.project_link {
+    text-decoration: none;
+}
+.projectName {
+    color: rgb(244, 244, 245);
+}
+.projectTime {
+    font-size: 15px;
+    margin-top: -10px;
+    color: rgb(79, 83, 102);
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 741px) {
+    .project_child_1 {
+        height: 250px;
+    }
+    .project_child_1 img {
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .project_child_1 {
+        height: 200px;
+    }
+    .project_child_1 img {
+        height: 110px;
+    }
+}

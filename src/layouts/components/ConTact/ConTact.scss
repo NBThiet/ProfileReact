@@ -1,0 +1,173 @@
+.fa-address-card {
+    display: none;
+}
+.EmailMB {
+    display: none;
+}
+.myEmail {
+    width: 94%;
+    height: 270px;
+    border-radius: 10px;
+    background-color: rgb(21, 23, 40);
+
+    margin-top: 20px;
+    border: 2px solid rgb(13, 114, 247);
+}
+
+.myEmail h4 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(244, 244, 245);
+}
+
+.boxEmail {
+    height: 50px;
+    width: 94%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 39, 59);
+    border-radius: 5px;
+    margin-top: 40px;
+    border: 1px solid rgb(4, 6, 10);
+}
+
+.Email {
+    padding-top: 12px;
+    padding-left: 5px;
+    overflow-x: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    color: rgb(175, 175, 180);
+}
+
+.Email::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+.fa-envelope {
+    font-size: 25px;
+    background-color: rgb(36, 39, 59);
+    padding-top: 10px;
+    padding-left: 5px;
+    color: rgb(91, 91, 95);
+    border-radius: 5px;
+}
+
+.btn_contact {
+    margin-top: 50px;
+    background-color: #2059e9;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(9, 119, 245, 0.8);
+}
+.btn_contact a {
+    text-decoration: none;
+    color: #fff;
+}
+.calendar {
+    height: 310px;
+    width: 94%;
+    margin-top: 20px;
+    background-color: rgb(21, 23, 40);
+    border-radius: 10px;
+    border: 2px solid #fac125;
+}
+.day {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #e7eaf0;
+}
+.date {
+    margin-top: 30px;
+    font-size: 80px;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    color: rgb(245, 196, 37);
+    border: 1px solid rgb(245, 196, 37);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(245, 196, 37, 0.8);
+}
+.month {
+    text-align: center;
+    font-size: 30px;
+    color: #405053;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 741px) {
+    .fa-address-card {
+        display: block;
+        font-size: 22px;
+        color: rgb(160, 160, 160);
+        margin-top: 20px;
+    }
+
+    .EmailMB {
+        display: none;
+    }
+    .EmailMB {
+        z-index: 1;
+        top: 0px;
+        bottom: 0px;
+        position: absolute;
+        height: 600px;
+        width: 97%;
+        margin-left: -10px;
+        background-color: rgba(53, 48, 48, 0.5);
+        display: flex;
+        justify-content: flex-end;
+    }
+    .EmailMB .ContainerEmail {
+        height: 650px;
+        background-color: rgb(21, 23, 40);
+        width: 250px;
+        right: 0px;
+    }
+    .myEmail,
+    .calendar {
+        margin-left: 20px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .ContainerEmail {
+        display: none;
+    }
+    .fa-address-card {
+        display: block;
+        font-size: 22px;
+        color: rgb(160, 160, 160);
+        margin-top: 20px;
+    }
+    .EmailMB {
+        display: none;
+        z-index: 1;
+        top: 0px;
+        bottom: 0px;
+        position: absolute;
+        height: 600px;
+        width: 97%;
+        margin-left: -10px;
+        background-color: rgba(53, 48, 48, 0.5);
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ContainerEmail {
+        height: 650px;
+        background-color: rgb(21, 23, 40);
+        width: 250px;
+        right: 0px;
+    }
+    .myEmail,
+    .calendar {
+        margin-left: 20px;
+        width: 80%;
+    }
+}
